@@ -1,3 +1,4 @@
+#prince gupta
 import re
 from collections import deque, defaultdict
 
@@ -15,7 +16,7 @@ user_dict= defaultdict(list)
 level_dict = defaultdict(int)
 
 
-# Add a log
+#adding a log 
 def add_log(line:str) -> None:
     arr=line.split()
 
@@ -27,7 +28,7 @@ def add_log(line:str) -> None:
     recent_logs.append(line)
 
 add_log(logs[0])
-
+#printing logs list and dict
 print(list(recent_logs))
 print(dict(user_dict))
 print(dict(level_dict))
